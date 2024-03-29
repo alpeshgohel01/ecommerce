@@ -26,16 +26,16 @@ if(isset($_POST['submit'])){
       }
    }
 
-   $empty_pass = 'da39a3ee5e6b4b0d3255bfef95601890afd80709';
+   $empty_pass = '';
    $select_old_pass = $conn->prepare("SELECT password FROM `admin` WHERE id = ?");
    $select_old_pass->execute([$admin_id]);
    $fetch_prev_pass = $select_old_pass->fetch(PDO::FETCH_ASSOC);
    $prev_pass = $fetch_prev_pass['password'];
-   $old_pass = sha1($_POST['old_pass']);
+   $old_pass = ($_POST['old_pass']);
    $old_pass = filter_var($old_pass, FILTER_SANITIZE_STRING);
-   $new_pass = sha1($_POST['new_pass']);
+   $new_pass = ($_POST['new_pass']);
    $new_pass = filter_var($new_pass, FILTER_SANITIZE_STRING);
-   $confirm_pass = sha1($_POST['confirm_pass']);
+   $confirm_pass = ($_POST['confirm_pass']);
    $confirm_pass = filter_var($confirm_pass, FILTER_SANITIZE_STRING);
 
    if($old_pass != $empty_pass){

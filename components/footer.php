@@ -6,14 +6,10 @@
          <img src="images/email-icon.png" alt="">
          <h3>our email</h3>
          <a href="mailto:alpeshgohel86@gmail.com">alpeshgohel86@gmail.com</a>
-         <a href="mailto:umangadatiya46@gmail.com">umangadatiya46@gmail.com</a>
+         <a href="mailto:tusharajani14@gmail.com">tusharajani14@gmail.com</a>
       </div>
 
-      <div class="box">
-         <img src="images/clock-icon.png" alt="">
-         <h3>opening hours</h3>
-         <p>07:00am to 10:00pm</p>
-      </div>
+     
 
       <div class="box">
          <img src="images/map-icon.png" alt="">
@@ -30,10 +26,7 @@
 
    </section>
 
-   <div class="credit">&copy; copyright @ <?= date('Y'); ?>&nbsp;Created by <span>Alpesh Gohel and Umang Adatiya</span> | all rights reserved!</div>
+   <div class="credit">&copy; copyright @ <?= date('Y'); ?>&nbsp;Created by <span>Alpesh Gohel and Tushar Ajani</span> | all rights reserved!</div>
 
 </footer>
 
-<div class="loader">
-   <img src="images/loader.gif" alt="">
-</div>

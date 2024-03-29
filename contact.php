@@ -62,7 +62,7 @@ if(isset($_POST['send'])){
 
 <div class="heading">
    <h3>contact us</h3>
-   <p><a href="home.php">home</a> <span> / contact</span></p>
+   <p><a href="home.php">Home</a> <span> / Contact</span></p>
 </div>
 
 <!-- contact section starts  -->
@@ -72,7 +72,7 @@ if(isset($_POST['send'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/contact-img.svg" alt="">
+         <img src="images/message.jpeg" alt="">
       </div>
 
       <form action="" method="post">

@@ -20,6 +20,7 @@ if(isset($_POST['submit'])){
    $update_address->execute([$address, $user_id]);
 
    $message[] = 'address saved!';
+   header('location:checkout.php');
 
 }
 

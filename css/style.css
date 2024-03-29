@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --yellow:#fed330;
+   --skyblue:skyblue;
    --red:#e74c3c;
    --white:#fff;
    --black:#222;
@@ -9,7 +9,8 @@
    --border:.2rem solid var(--black);
 }
 
-*{
+*
+{
    font-family: 'Rubik', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
@@ -18,7 +19,7 @@
 }
 
 *::selection{
-   background-color: var(--yellow);
+   background-color: var(--skyblue);
    color:var(--black);
 }
 
@@ -32,7 +33,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-   background-color: var(--yellow);
+   background-color: var(--skyblue);
 }
 
 html{
@@ -64,7 +65,7 @@ section{
    justify-content: center;
    gap:1rem;
    flex-flow: column;
-   background-color: var(--black);
+   background-color: black;
    min-height: 20rem;
 }
    
@@ -80,7 +81,7 @@ section{
 }
 
 .heading p a{
-   color:var(--yellow);
+   color:var(--skyblue);
 }
 
 .heading p a:hover{
@@ -100,13 +101,16 @@ section{
 }
 
 .btn{
-   background-color: var(--yellow);
+   background-color: var(--skyblue);
    color:var(--black);
+   border-radius: 20px;
 }
 
 .delete-btn{
    background-color: var(--red);
    color:var(--white);
+   border-radius: 20px;
+
 }
 
 .btn:hover,
@@ -130,7 +134,7 @@ section{
    align-items: center;
    gap:1rem;
    justify-content: space-between;
-   background-color: var(--yellow);
+   background-color: var(--skyblue);
 }
 
 .message span{
@@ -190,7 +194,7 @@ section{
 }
 
 .header .flex .navbar a:hover{
-   color:var(--yellow);
+   color:var(--skyblue);
    text-decoration: underline;
 }
 
@@ -202,7 +206,7 @@ section{
 }
 
 .header .flex .icons > *:hover{
-   color: var(--yellow);
+   color: var(--skyblue);
 }
 
 .header .flex .icons span{
@@ -252,7 +256,7 @@ section{
 }
 
 .header .flex .profile .account a:hover{
-   color:var(--yellow);
+   color:var(--skyblue);
    text-decoration: underline;
 }
 
@@ -270,6 +274,7 @@ section{
 
 .hero .slide .image img{
    width: 100%;
+   border-radius: 15px;
 }
 
 .hero .slide .content{
@@ -279,7 +284,7 @@ section{
 
 .hero .slide .content span{
    font-size: 2.5rem;
-   color:var(--light-color);
+   color:var(--green);
 }
 
 .hero .slide .content h3{
@@ -290,7 +295,7 @@ section{
 }
 
 .swiper-pagination-bullet-active{
-   background-color: var(--yellow);
+   background-color: var(--skyblue);
 }
 
 .category .box-container{
@@ -320,15 +325,15 @@ section{
 }
 
 .category .box-container .box:hover{
-   background-color: var(--black);
+   /*background-color: var(--black);*/
 }
 
 .category .box-container .box:hover img{
-   filter: invert(1);
+   /*filter: invert(1);*/
 }
 
 .category .box-container .box:hover h3{
-   color:var(--white);
+   /*color:var(--white);*/
 }
 
 .products .box-container{
@@ -434,7 +439,7 @@ section{
 
 .products .box-container .box .flex .fa-edit{
    width: 5rem;
-   background-color: var(--yellow);
+   background-color: var(--skyblue);
    color:var(--black);
    cursor: pointer;
    font-size: 1.8rem;
@@ -599,7 +604,7 @@ section{
 
 .reviews .slide .stars i{
    font-size: 1.8rem;
-   color:var(--yellow);
+   color:var(--skyblue);
 }
 
 .reviews .slide h3{
@@ -674,7 +679,7 @@ section{
 }
 
 .search-form form .fa-search:hover{
-   background-color: var(--yellow);
+   background-color: var(--skyblue);
    color:var(--black);
 }
 
@@ -717,7 +722,7 @@ section{
 }
 
 .checkout form .cart-items p .price{
-   color:var(--yellow);
+   color:var(--skyblue);
 }
 
 .checkout form .cart-items .grand-total{
@@ -983,10 +988,10 @@ section{
 }
 
 .credit span{
-   color:var(--yellow);
+   color:var(--skyblue);
 }
 
-.loader{
+/*.loader{
    position: fixed;
    top:0; left:0; right:0; bottom: 0;
    z-index: 1000000;
@@ -999,7 +1004,7 @@ section{
 .loader img{
    height: 25rem;
 }
-
+*/
 
 
 /* media queries  */
@@ -1076,3 +1081,11 @@ section{
    }   
 
 }
+
+.line
+{
+   width: 100%;
+   height: 10px;
+   background-color: black;
+}
+

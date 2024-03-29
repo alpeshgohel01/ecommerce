@@ -46,35 +46,35 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>order online</span>
-               <h3>delicious pizza</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <h3>Men Cloths</h3>
+               <a href="shop.php" class="btn">See Shop</a>
             </div>
             <div class="image">
-               <img src="images/home-img-1.png" alt="">
-            </div>
-         </div>
-
-         <!-- <div class="swiper-slide slide">
-            <div class="content">
-               <span>order online</span>
-               <h3>chezzy hamburger</h3>
-               <a href="design/menu.html" class="btn">see menus</a>
-            </div>
-            <div class="image">
-               <img src="images/home-img-2.png" alt="">
+               <img src="images/men.jpg" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
                <span>order online</span>
-               <h3>rosted chicken</h3>
-               <a href="menu.html" class="btn">see menus</a>
+               <h3>Women Cloths</h3>
+               <a href="shop.php" class="btn">See Shop</a>
             </div>
             <div class="image">
-               <img src="images/home-img-3.png" alt="">
+               <img src="images/women.jpg" alt="">
             </div>
-         </div> -->
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>order online</span>
+               <h3>Children Wear</h3>
+               <a href="shop.php" class="btn">See Shop</a>
+            </div>
+            <div class="image">
+               <img src="images/children.jpg" alt="">
+            </div>
+         </div>
 
       </div>
 
@@ -86,40 +86,37 @@ include 'components/add_cart.php';
 
 <section class="category">
 
-   <h1 class="title">food category</h1>
+   <h1 class="title">Cloth Category</h1>
 
    <div class="box-container">
 
-      <a href="category.php?category=fast food" class="box">
-         <img src="images/cat-1.png" alt="">
-         <h3>fast food</h3>
+      <a href="category.php?category=men" class="box">
+         <img src="images/men2.jpg" alt="">
+         <h3>Men</h3>
       </a>
 
-      <a href="category.php?category=main dish" class="box">
-         <img src="images/cat-2.png" alt="">
-         <h3>main dishes</h3>
+      <a href="category.php?category=women" class="box">
+         <img src="images/women2.jpg" alt="">
+         <h3>Women</h3>
       </a>
 
-      <a href="category.php?category=drinks" class="box">
-         <img src="images/cat-3.png" alt="">
-         <h3>drinks</h3>
+      <a href="category.php?category=children" class="box">
+         <img src="images/children2.jpg" alt="">
+         <h3>Children</h3>
       </a>
 
-      <a href="category.php?category=desserts" class="box">
-         <img src="images/cat-4.png" alt="">
-         <h3>deserts</h3>
-      </a>
+
 
    </div>
 
 </section>
 
+<div class="line"></div>
 
-
-
+<!-- 
 <section class="products">
 
-   <h1 class="title">latest dishes</h1>
+   <h1 class="title">latest cloths</h1>
 
    <div class="box-container">
 
@@ -158,7 +155,7 @@ include 'components/add_cart.php';
    </div>
 
 </section>
-
+ -->
 
 
 
@@ -184,7 +181,7 @@ include 'components/add_cart.php';
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
-<script>
+ <script>
 
 var swiper = new Swiper(".hero-slider", {
    loop:true,
